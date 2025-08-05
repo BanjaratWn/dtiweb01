@@ -9,26 +9,46 @@
     <meta name="author" content="............." />
     <title>Banjarat WebDev 2025</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <style>
+      h1 {
+        color: rgb(41, 92, 158);
+      }
+      hr {
+        width: 75%;
+      }
+    </style>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div>
       <img src="./images/favicon.png" alt="Banjarat" />
     </div>
     <div>
-      <h1>Banjarat</h1>
-      <span> Web Developer </span>
+      <h1 style="text-align: center">Banjarat</h1>
+      <span class="wow"> Web Developer </span>
     </div>
     <hr />
     <div>
-      <p>
+      <p class="wow">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, enim
         autem in cumque dicta soluta, impedit nesciunt hic eligendi natus est
         odio illo, vel quis. Earum deleniti assumenda soluta dolore!
       </p>
     </div>
     <hr />
-    <button>
+    <button onclick="showWelcome()">
       CLICK ME
     </button>
+    <hr />
+    <button onclick="showByeBye()">
+      CLICK YOU
+    </button>
+
+    <script>
+      function showWelcome() {
+        alert("Welcome to DTI-SAU");
+      }
+    </script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
